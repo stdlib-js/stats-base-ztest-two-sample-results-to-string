@@ -1,38 +1,5 @@
+"use strict";var l=function(e,i){return function(){return i||e((i={exports:{}}).exports,i),i.exports}};var f=l(function(b,d){
+var u=require('@stdlib/assert-is-positive-integer/dist'),g=require('@stdlib/assert-is-plain-object/dist'),h=require('@stdlib/assert-is-boolean/dist').isPrimitive,v=require('@stdlib/assert-has-own-property/dist'),a=require('@stdlib/error-tools-fmtprodmsg/dist');function p(e,i){var o,s,r,t,n,c;if(r=4,o=!0,arguments.length>1){if(!g(i))throw new TypeError(a('2QB47',i));if(v(i,"digits")){if(!u(i.digits))throw new TypeError(a('2QB3P',"digits",i.digits));r=i.digits}if(v(i,"decision")){if(!h(i.decision))throw new TypeError(a('2QB2o',"decision",i.decision));o=i.decision}}switch(e.alternative){case"less":n="less than";break;case"greater":n="greater than";break;default:n="not equal to";break}return s=(1-e.alpha)*100,c=e.ci,t=["",e.method,"",a("Alternative hypothesis: True difference in means is %s %0."+r+"f",n,e.nullValue),"",a("    pValue: %0."+r+"f",e.pValue),a("    statistic: %0."+r+"f",e.statistic),a("    %."+r+"f%% confidence interval: [%0."+r+"f, %0."+r+"f]",s,c[0],c[1]),""],o&&(t.push(a("Test Decision: %s null in favor of alternative at %."+r+"f%% significance level",e.rejected?"Reject":"Fail to reject",100-s)),t.push("")),t.join("\n")}d.exports=p
+});var m=f();module.exports=m;
 /** @license Apache-2.0 */
-
-'use strict';
-
-/**
-* Serialize a two-sample Z-test results object as a formatted string.
-*
-* @module @stdlib/stats-base-ztest-two-sample-results-to-string
-*
-* @example
-* var Float64Array = require( '@stdlib/array-float64' );
-* var res2str = require( '@stdlib/stats-base-ztest-two-sample-results-to-string' );
-*
-* var results = {
-*     'rejected': true,
-*     'alpha': 0.05,
-*     'pValue': 0.0132,
-*     'statistic': 2.4773,
-*     'nullValue': 0.0,
-*     'xmean': 3.7561,
-*     'ymean': 3.0129,
-*     'ci': new Float64Array( [ 0.1552, 1.3311 ] ),
-*     'alternative': 'two-sided',
-*     'method': 'Two-sample Z-test'
-* };
-*
-* var str = res2str( results );
-* // returns <string>
-*/
-
-// MODULES //
-
-var main = require( './main.js' );
-
-
-// EXPORTS //
-
-module.exports = main;
+//# sourceMappingURL=index.js.map

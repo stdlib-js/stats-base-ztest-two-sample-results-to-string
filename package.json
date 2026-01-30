@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-ztest-two-sample-results-to-string",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Serialize a two-sample Z-test results object as a formatted string.",
   "license": "Apache-2.0",
   "author": {
@@ -81,7 +81,6 @@
     "util",
     "string"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
