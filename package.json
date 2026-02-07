@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-ztest-two-sample-results-to-string",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Serialize a two-sample Z-test results object as a formatted string.",
   "license": "Apache-2.0",
   "author": {
@@ -37,18 +37,18 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-own-property": "^0.2.2",
-    "@stdlib/assert-is-boolean": "^0.2.2",
-    "@stdlib/assert-is-plain-object": "^0.2.2",
-    "@stdlib/assert-is-positive-integer": "^0.2.2",
-    "@stdlib/string-format": "^0.2.2",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
+    "@stdlib/assert-has-own-property": "^0.2.3",
+    "@stdlib/assert-is-boolean": "^0.2.3",
+    "@stdlib/assert-is-plain-object": "^0.2.3",
+    "@stdlib/assert-is-positive-integer": "^0.2.3",
+    "@stdlib/string-format": "^0.2.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-float64": "^0.2.2",
-    "@stdlib/assert-is-string": "^0.2.2",
-    "@stdlib/stats-base-ztest-alternative-resolve-enum": "github:stdlib-js/stats-base-ztest-alternative-resolve-enum#main",
-    "@stdlib/stats-base-ztest-two-sample-results-float64": "github:stdlib-js/stats-base-ztest-two-sample-results-float64#main",
+    "@stdlib/assert-is-string": "^0.2.3",
+    "@stdlib/stats-base-ztest-alternative-resolve-enum": "^0.1.0",
+    "@stdlib/stats-base-ztest-two-sample-results-float64": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
