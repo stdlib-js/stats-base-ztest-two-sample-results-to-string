@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import res2str from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-to-string@deno/mod.js';
+import res2str from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-to-string@v0.1.1-deno/mod.js';
 ```
 
 #### res2str( results\[, options] )
@@ -122,7 +122,7 @@ The function supports the following options:
 import Float64Results from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-float64@deno/mod.js';
 import resolveEnum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-alternative-resolve-enum@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import res2str from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-to-string@deno/mod.js';
+import res2str from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-two-sample-results-to-string@v0.1.1-deno/mod.js';
 
 var results = new Float64Results();
 results.rejected = true;
