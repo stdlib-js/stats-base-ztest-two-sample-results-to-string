@@ -45,14 +45,14 @@
     "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/array-float64": "^0.2.2",
+    "@stdlib/array-float64": "^0.2.3",
     "@stdlib/assert-is-string": "^0.2.3",
-    "@stdlib/stats-base-ztest-alternative-resolve-enum": "^0.1.0",
-    "@stdlib/stats-base-ztest-two-sample-results-float64": "^0.1.0",
+    "@stdlib/stats-base-ztest-alternative-resolve-enum": "^0.0.1",
+    "@stdlib/stats-base-ztest-two-sample-results-float64": "^0.0.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
